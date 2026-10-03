@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>For My Love</title>
+</head>
+<body>
+
+
+    <style>
+        dialog{
+            height: 500px;
+            width: 1250px;
+        }
+        audio{
+            position:absolute;
+            transform:translate(-50%,-50%);
+            left:50%;
+            top:90%;
+            font-size:25px;
+        }
+        
+         dialog::backdrop{
+        background-color: rgb(100, 162, 255);
+         }
+    </style>
+
+<center>
+<button style="position:absolute;transform:translate(-50%,-50%);left:50%;top:50%;font-size:25px;background-color:lightskyblue;color:aliceblue;border-radius:10px;position:center;"onclick="showDialog()">OPEN ME</button>
+   </center>
+   <dialog id="open-dialog">
+     <audio controls autoplay loop>
+         <source src="music.mp3/KISS ME.mp3">
+         </audio>
+
+<center>
+        <p style="position:absolute;transform:translate(-50%,-50%);left:50%;top:10%;font-size:85px;">Happy National Boyfriend's Day!</p> 
+        </center>
+        <button style="position:absolute;transform:translate(-50%,-50%);left:75%;top:75%;font-size:85px;" onclick="showDialog1()">❤️</button>
+
+
+        <dialog id="heartone-dialog">
+            <center>
+         <p style="font-size:25px;top:200%;left:100%;padding:25px;">Hey baby, this is what I wanted to make for you! I hope you like this, I tried making it as pretty as possible for you.
+            I hope you had an amazing day with me today, and I hope you had a great day in general. I love you so much, and I hope you know that.
+             You are the best thing that has ever happened to me, and I am so grateful for you and us. I love you more than anything in this world,
+              and I can't wait to spend the rest of my life with you. Please always take care of yourself, and remember that I will always be here for you.
+               Te amo muchisimo, mi amor.
+         </p>
+         <img style="width: 450px; height: 200px;" src="DR.png">
+            </center>
+                <button style="left:75%;top:90%;" onclick="closeDialog1()">Close</button>
+            
+        </dialog>
+        <button style="position:absolute;transform:translate(-50%,-50%);left:25%;top:75%;font-size:85px;" onclick="showDialog2()">❤️</button>
+       
+        
+        <dialog id="hearttwo-dialog">
+            <center>
+         <img src="ourpics.love/us.png" alt="us" width="506" height="900">
+            </center>
+                <button style="left:75%;" onclick="closeDialog2()">Close</button>
+            
+        </dialog>
+
+    </dialog>
+
+</body>
+
+
+<script>
+const dialog = document.getElementById('open-dialog');
+        const dialog1 = document.getElementById('heartone-dialog');
+        function showDialog() {
+            dialog.showModal();
+        }
+        function showDialog1() {
+            dialog1.showModal();
+        }
+        function closeDialog1() {
+            dialog1.close();
+        }
+        const dialog2 = document.getElementById('hearttwo-dialog');
+        function showDialog2() {
+            dialog2.showModal();
+        }
+        function closeDialog2() {
+            dialog2.close();
+        }
+        
+</script>
