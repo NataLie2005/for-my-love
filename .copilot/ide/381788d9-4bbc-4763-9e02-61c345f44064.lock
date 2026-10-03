@@ -1,0 +1,14 @@
+{
+  "socketPath": "\\\\.\\pipe\\mcp-ffec0fde-c703-4590-b073-449cd8b14177.sock",
+  "scheme": "pipe",
+  "headers": {
+    "Authorization": "Nonce 4fe3bdb7-c5f0-4c3f-a8ed-2cbd8428ad99"
+  },
+  "pid": 13712,
+  "ideName": "Visual Studio Code",
+  "timestamp": 1791002372793,
+  "workspaceFolders": [
+    "c:\\Users\\fdzmi\\OneDrive\\App\\for-my-love"
+  ],
+  "isTrusted": true
+}
